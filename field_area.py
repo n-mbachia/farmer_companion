@@ -9,5 +9,5 @@ acres = square_mtrs / one_acre
 remaining_mtrs = square_mtrs % one_acre
 whole_acres = int(acres)
 
-print("Your farm has ", square_mtrs, " square meters which is ", format(acres, ".2f"), " acres ")
-print("Your farm is", whole_acres, "whole acres(s) with", format(remaining_mtrs, ".2f"), " square meters remaining")
+print("Your farm has ", format(square_mtrs,',.0f'), "square meters which is ", format(acres, ".2f"), " acres.")
+print("Your farm is", whole_acres, "whole acres(s) with", format(remaining_mtrs, ",.2f"), " square meters remaining.")
